@@ -15,11 +15,11 @@ namespace HelloWorld
             Console.WriteLine("Ålder:" + age);
 
             Console.WriteLine("Är du vid liv, Ja / Nej ?");
-            bool alive = Console.ReadLine();
+            Console.ReadLine();
             bool Ja = true;
             bool Nej = false;
-            Console.WriteLine(Ja);
-            Console.WriteLine(Nej);
+            Console.WriteLine("Är du vid liv?" + Ja);
+            Console.WriteLine("Är du vid liv?" + Nej);
 
         }
     }
