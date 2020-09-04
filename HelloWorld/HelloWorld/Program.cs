@@ -4,11 +4,16 @@ namespace HelloWorld
 {
     class Program
     {
+
         static void Main(string[] args)
         {
             Console.WriteLine("Skriv in namn:");
             string namn = Console.ReadLine();
             Console.WriteLine("Namn:" + namn);
+            if(namn == kalle)
+            {
+                Console.WriteLine("Najs");
+            }
 
             Console.WriteLine("Skriv in din ålder:");
             int age = Convert.ToInt32(Console.ReadLine());
