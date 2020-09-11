@@ -1,0 +1,12 @@
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\variabler\variabler\bin\Debug\netcoreapp3.1\variabler.exe
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\variabler\variabler\bin\Debug\netcoreapp3.1\variabler.deps.json
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\variabler\variabler\bin\Debug\netcoreapp3.1\variabler.runtimeconfig.json
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\variabler\variabler\bin\Debug\netcoreapp3.1\variabler.runtimeconfig.dev.json
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\variabler\variabler\bin\Debug\netcoreapp3.1\variabler.dll
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\variabler\variabler\bin\Debug\netcoreapp3.1\variabler.pdb
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\variabler\variabler\obj\Debug\netcoreapp3.1\variabler.AssemblyInfoInputs.cache
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\variabler\variabler\obj\Debug\netcoreapp3.1\variabler.AssemblyInfo.cs
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\variabler\variabler\obj\Debug\netcoreapp3.1\variabler.csproj.CoreCompileInputs.cache
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\variabler\variabler\obj\Debug\netcoreapp3.1\variabler.dll
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\variabler\variabler\obj\Debug\netcoreapp3.1\variabler.pdb
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\variabler\variabler\obj\Debug\netcoreapp3.1\variabler.genruntimeconfig.cache
