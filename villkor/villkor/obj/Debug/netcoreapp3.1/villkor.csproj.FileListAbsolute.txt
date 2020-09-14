@@ -1,0 +1,12 @@
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\villkor\villkor\obj\Debug\netcoreapp3.1\villkor.AssemblyInfoInputs.cache
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\villkor\villkor\obj\Debug\netcoreapp3.1\villkor.AssemblyInfo.cs
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\villkor\villkor\obj\Debug\netcoreapp3.1\villkor.csproj.CoreCompileInputs.cache
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\villkor\villkor\bin\Debug\netcoreapp3.1\villkor.exe
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\villkor\villkor\bin\Debug\netcoreapp3.1\villkor.deps.json
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\villkor\villkor\bin\Debug\netcoreapp3.1\villkor.runtimeconfig.json
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\villkor\villkor\bin\Debug\netcoreapp3.1\villkor.runtimeconfig.dev.json
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\villkor\villkor\bin\Debug\netcoreapp3.1\villkor.dll
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\villkor\villkor\bin\Debug\netcoreapp3.1\villkor.pdb
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\villkor\villkor\obj\Debug\netcoreapp3.1\villkor.dll
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\villkor\villkor\obj\Debug\netcoreapp3.1\villkor.pdb
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\villkor\villkor\obj\Debug\netcoreapp3.1\villkor.genruntimeconfig.cache
