@@ -10,3 +10,4 @@ C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\villkor\villkor\bin\Debu
 C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\villkor\villkor\obj\Debug\netcoreapp3.1\villkor.dll
 C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\villkor\villkor\obj\Debug\netcoreapp3.1\villkor.pdb
 C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\villkor\villkor\obj\Debug\netcoreapp3.1\villkor.genruntimeconfig.cache
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\villkor\villkor\obj\Debug\netcoreapp3.1\villkor.csprojAssemblyReference.cache
