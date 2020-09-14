@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "listorr", "listorr\listorr.csproj", "{A567AF88-DB5D-408D-8C5C-EB5CC9CAD3AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A567AF88-DB5D-408D-8C5C-EB5CC9CAD3AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A567AF88-DB5D-408D-8C5C-EB5CC9CAD3AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A567AF88-DB5D-408D-8C5C-EB5CC9CAD3AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A567AF88-DB5D-408D-8C5C-EB5CC9CAD3AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD0FA11D-931B-4E5D-8503-87CCF93F9228}
+	EndGlobalSection
+EndGlobal
