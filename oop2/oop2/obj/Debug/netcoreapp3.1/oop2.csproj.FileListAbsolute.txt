@@ -1,0 +1,13 @@
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\oop2\oop2\bin\Debug\netcoreapp3.1\oop2.exe
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\oop2\oop2\bin\Debug\netcoreapp3.1\oop2.deps.json
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\oop2\oop2\bin\Debug\netcoreapp3.1\oop2.runtimeconfig.json
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\oop2\oop2\bin\Debug\netcoreapp3.1\oop2.runtimeconfig.dev.json
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\oop2\oop2\bin\Debug\netcoreapp3.1\oop2.dll
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\oop2\oop2\bin\Debug\netcoreapp3.1\oop2.pdb
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\oop2\oop2\obj\Debug\netcoreapp3.1\oop2.csprojAssemblyReference.cache
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\oop2\oop2\obj\Debug\netcoreapp3.1\oop2.AssemblyInfoInputs.cache
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\oop2\oop2\obj\Debug\netcoreapp3.1\oop2.AssemblyInfo.cs
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\oop2\oop2\obj\Debug\netcoreapp3.1\oop2.csproj.CoreCompileInputs.cache
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\oop2\oop2\obj\Debug\netcoreapp3.1\oop2.dll
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\oop2\oop2\obj\Debug\netcoreapp3.1\oop2.pdb
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\oop2\oop2\obj\Debug\netcoreapp3.1\oop2.genruntimeconfig.cache

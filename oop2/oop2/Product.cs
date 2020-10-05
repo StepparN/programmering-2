@@ -6,5 +6,6 @@ namespace oop2
 {
     class Product
     {
+        public string _productType;
     }
 }
