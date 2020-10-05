@@ -6,7 +6,7 @@ namespace oop2
 {
     class Customer
     {
-        List<Product> cart = new List<Product>();
+        List<Product> cart = new List<Product>(); 
         
             
         }
