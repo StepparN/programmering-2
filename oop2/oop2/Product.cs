@@ -8,4 +8,5 @@ namespace oop2
     {
         public string _productType;
     }
+
 }

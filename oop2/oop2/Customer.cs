@@ -10,4 +10,5 @@ namespace oop2
 
         public List<Product> _cart = new List<Product>();
     }
+
 }
