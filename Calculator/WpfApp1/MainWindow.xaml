@@ -22,22 +22,21 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <TextBlock Name ="Numbers" Grid.ColumnSpan="3" FontSize="60"/>
-        <Button Click="Button_click" Grid.Column="3" Content="/" FontSize="60"/>
+        <Button Click="Button_Division" Grid.Column="3" Content="/" FontSize="60"/>
         <Button Click="Button_click" Grid.Row="1" Content="7" FontSize="60"/>
         <Button Click="Button_click" Grid.Row="2" Content="4" FontSize="60"/>
         <Button Click="Button_click" Grid.Row="3" Content="1" FontSize="60"/>
         <Button Click="Button_click" Grid.Row="4" Content="0" FontSize="60"/>
         <Button Click="Button_click" Grid.Row="1" Grid.Column="1" Content="8" FontSize="60"/>
         <Button Click="Button_click" Grid.Row="1" Grid.Column="2" Content="9" FontSize="60"/>
-        <Button Click="Button_click" Grid.Row="1" Grid.Column="3" Content="x" FontSize="60"/>
+        <Button Click="Button_Multiplication" Grid.Row="1" Grid.Column="3" Content="x" FontSize="60"/>
         <Button Click="Button_click" Grid.Row="2" Grid.Column="1" Content="5" FontSize="60"/>
         <Button Click="Button_click" Grid.Row="2" Grid.Column="2" Content="6" FontSize="60"/>
-        <Button Click="Button_click" Grid.Row="2" Grid.Column="3" Content="-" FontSize="60"/>
+        <Button Click="Button_Subtraction" Grid.Row="2" Grid.Column="3" Content="-" FontSize="60"/>
         <Button Click="Button_click" Grid.Row="3" Grid.Column="1" Content="2" FontSize="60"/>
         <Button Click="Button_click" Grid.Row="3" Grid.Column="2" Content="3" FontSize="60"/>
-        <Button Click="Button_click" Grid.Row="3" Grid.Column="3" Content="+" FontSize="60"/>
-        <Button Click="Button_click" Grid.Row="4" Grid.Column="1"/>
-        <Button Click="Button_click" Grid.Row="4" Grid.Column="2"/>
-        <Button Click="Button_click" Grid.Row="4" Grid.Column="3" Content="=" FontSize="60"/>
+        <Button Click="Button_Addition" Grid.Row="3" Grid.Column="3" Content="+" FontSize="60"/>
+        <Button Click="Button_Clear" Grid.Row="4" Grid.Column="2" Content="C" FontSize="60"/>
+        <Button Click="Button_Calculate" Grid.Row="4" Grid.Column="3" Content="=" FontSize="60"/>
     </Grid>
 </Window>
