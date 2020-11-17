@@ -20,33 +20,15 @@ namespace WpfApp1
     /// </summary>
     public partial class MainWindow : Window
     {
+        string input = string.Empty;
+        string tal1 = string.Empty;
+        string tal2 = string.Empty;
+        char operation;
+        double result = 0.0;
+
         public MainWindow()
         {
             InitializeComponent();
-        }
-
-        private void Button_click(object sender, RoutedEventArgs e)
-        {
-            if (e.Source is Button button)
-            {
-                switch (button.Content)
-                {
-                    case "0":
-                    case "1":
-                    case "2":
-                    case "3":
-                    case "4":
-                    case "5":
-                    case "6":
-                    case "7":
-                    case "8":
-                    case "9":
-                        Numbers.Text += button.Content;
-                        break;
-                    default:
-                        break;
-                }
-            }
         }
         private void Button_Clear(object sender, RoutedEventArgs e)
         {
@@ -58,20 +40,75 @@ namespace WpfApp1
         }
         private void Button_Addition(object sender, RoutedEventArgs e)
         {
-
+            tal1 = input;
+            operation = '+';
+            input = string.Empty;
         }
-        private void Button_Subtraction(object sender, RoutedEventArgs e)
+        private void Button_Subtraction(object sender, RoutedEventArgs e)   
         {
-
+            tal1 = input;
+            operation = '-';
+            input = string.Empty;
         }
         private void Button_Division(object sender, RoutedEventArgs e)
         {
-
+            tal1 = input;
+            operation = '/';
+            input = string.Empty;
         }
         private void Button_Multiplication(object sender, RoutedEventArgs e)
         {
-
+            tal1 = input;
+            operation = 'x';
+            input = string.Empty;
+        }
+        private void zero_Click(object sender, RoutedEventArgs e)
+        {
+            input += "0";
+        }
+        private void one_Click(object sender, RoutedEventArgs e)
+        {
+            input += "1";
         }
 
+        private void two_Click(object sender, RoutedEventArgs e)
+        {
+            input += "2";
+        }
+
+        private void three_Click(object sender, RoutedEventArgs e)
+        {
+            input += "3";
+        }
+
+        private void four_Click(object sender, RoutedEventArgs e)
+        {
+            input += "4";
+        }
+
+        private void five_Click(object sender, RoutedEventArgs e)
+        {
+            input += "5";
+        }
+
+        private void six_Click(object sender, RoutedEventArgs e)
+        {
+            input += "6";
+        }
+
+        private void seven_Click(object sender, RoutedEventArgs e)
+        {
+            input += "7";
+        }
+
+        private void eight_Click(object sender, RoutedEventArgs e)
+        {
+            input += "8";
+        }
+
+        private void nince_Click(object sender, RoutedEventArgs e)
+        {
+            input += "9";
+        }
     }
 }
