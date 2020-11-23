@@ -32,11 +32,45 @@ namespace WpfApp1
         }
         private void Button_Clear(object sender, RoutedEventArgs e)
         {
-            Numbers.Text = String.Empty;
+            this.Numbers.Text = "";
+            this.input = string.Empty;
+            this.tal1 = string.Empty;
+            this.tal2 = string.Empty;
         }
         private void Button_Calculate(object sender, RoutedEventArgs e)
         {
-            
+            tal2 = input;
+            double num1, num2;
+            double.TryParse(tal1, out num1);
+            double.TryParse(tal2, out num2);
+
+            if (operation == '+')
+            {
+                result = num1 + num2;
+                Numbers.Text = result.ToString();
+            }
+            else if (operation == '-')
+            {
+                result = num1 - num2;
+                Numbers.Text = result.ToString();
+            }
+            else if (operation == 'x')
+            {
+                result = num1 * num2;
+                Numbers.Text = result.ToString();
+            }
+            else if (operation == '/')
+            {
+                if (num2 != 0)
+                {
+                    result = num1 / num2;
+                    Numbers.Text = result.ToString();
+                }
+                else
+                {
+                    Numbers.Text = "DIV/Zero";
+                }
+            }
         }
         private void Button_Addition(object sender, RoutedEventArgs e)
         {
@@ -64,51 +98,71 @@ namespace WpfApp1
         }
         private void zero_Click(object sender, RoutedEventArgs e)
         {
+            this.Numbers.Text = "";
             input += "0";
+            this.Numbers.Text += input;
         }
         private void one_Click(object sender, RoutedEventArgs e)
         {
+            this.Numbers.Text = "";
             input += "1";
+            this.Numbers.Text += input;
         }
 
         private void two_Click(object sender, RoutedEventArgs e)
         {
+            this.Numbers.Text = "";
             input += "2";
+            this.Numbers.Text += input;
         }
 
         private void three_Click(object sender, RoutedEventArgs e)
         {
+            this.Numbers.Text = "";
             input += "3";
+            this.Numbers.Text += input;
         }
 
         private void four_Click(object sender, RoutedEventArgs e)
         {
+            this.Numbers.Text = "";
             input += "4";
+            this.Numbers.Text += input;
         }
 
         private void five_Click(object sender, RoutedEventArgs e)
         {
+            this.Numbers.Text = "";
             input += "5";
+            this.Numbers.Text += input;
         }
 
         private void six_Click(object sender, RoutedEventArgs e)
         {
+            this.Numbers.Text = "";
             input += "6";
+            this.Numbers.Text += input;
         }
 
         private void seven_Click(object sender, RoutedEventArgs e)
         {
+            this.Numbers.Text = "";
             input += "7";
+            this.Numbers.Text += input;
         }
 
         private void eight_Click(object sender, RoutedEventArgs e)
         {
+            this.Numbers.Text = "";
             input += "8";
+            this.Numbers.Text += input;
         }
 
-        private void nince_Click(object sender, RoutedEventArgs e)
+        private void nine_Click(object sender, RoutedEventArgs e)
         {
+            this.Numbers.Text = "";
             input += "9";
+            this.Numbers.Text += input;
         }
     }
 }
