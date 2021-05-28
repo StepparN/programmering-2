@@ -1,0 +1,16 @@
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\Balloonpopping\Balloonpopping\bin\Debug\Balloonpopping.exe.config
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\Balloonpopping\Balloonpopping\bin\Debug\Balloonpopping.exe
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\Balloonpopping\Balloonpopping\bin\Debug\Balloonpopping.pdb
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\Balloonpopping\Balloonpopping\obj\Debug\Balloonpopping.csprojAssemblyReference.cache
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\Balloonpopping\Balloonpopping\obj\Debug\MainWindow.g.cs
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\Balloonpopping\Balloonpopping\obj\Debug\App.g.cs
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\Balloonpopping\Balloonpopping\obj\Debug\Balloonpopping_Content.g.cs
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\Balloonpopping\Balloonpopping\obj\Debug\Balloonpopping_MarkupCompile.cache
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\Balloonpopping\Balloonpopping\obj\Debug\Balloonpopping_MarkupCompile.lref
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\Balloonpopping\Balloonpopping\obj\Debug\MainWindow.baml
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\Balloonpopping\Balloonpopping\obj\Debug\Balloonpopping.g.resources
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\Balloonpopping\Balloonpopping\obj\Debug\Balloonpopping.Properties.Resources.resources
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\Balloonpopping\Balloonpopping\obj\Debug\Balloonpopping.csproj.GenerateResource.cache
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\Balloonpopping\Balloonpopping\obj\Debug\Balloonpopping.csproj.CoreCompileInputs.cache
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\Balloonpopping\Balloonpopping\obj\Debug\Balloonpopping.exe
+C:\Users\kalle.favoryt\Documents\GitHub\programmering-2\Balloonpopping\Balloonpopping\obj\Debug\Balloonpopping.pdb
