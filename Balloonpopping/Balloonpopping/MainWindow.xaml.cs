@@ -43,7 +43,7 @@ namespace Balloonpopping
 
         MediaPlayer player = new MediaPlayer();
 
-        //Här så sätts backgrundbilden in
+        //Här sätts backgrundsbilden in
         public MainWindow()
         {
             InitializeComponent();
@@ -51,7 +51,7 @@ namespace Balloonpopping
             gameTimer.Tick += GameEngine;
             gameTimer.Interval = TimeSpan.FromMilliseconds(20);
 
-            backgroundImage.ImageSource = new BitmapImage(new Uri("pack://application:,,,/files/background-Image.jpg"));
+            backgroundImage.ImageSource = new BitmapImage(new Uri("pack://application:,,,/files/background-Image.jpg")); // i en bitmapimage lägger man in bakgrunden till spelet.
             MyCanvas.Background = backgroundImage;
 
             RestartGame();
@@ -134,7 +134,6 @@ namespace Balloonpopping
                 MyCanvas.Children.Remove(y);
             }
             //Det här kodblocket gör att om man missar mer än 10 ballonger så förlorar man och kan starta igen
-            //Har man mer än 10 poäng går det även snabbare
             if (missedBalloons > 10)
             {
                 gameIsActive = false;
@@ -144,7 +143,7 @@ namespace Balloonpopping
                 RestartGame();
             }
 
-            if (score > 10)
+            if (score > 10) //Denna if-sats gör att ballongerna efter 10 i score blir snabbare vilket gör spelet svårare.
             {
                 speed = 7;
             }
