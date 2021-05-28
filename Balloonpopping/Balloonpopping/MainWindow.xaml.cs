@@ -43,7 +43,7 @@ namespace Balloonpopping
 
         MediaPlayer player = new MediaPlayer();
 
-        //Här sätts backgrundsbilden in
+        //Här sätts bakgrundsbilden in
         public MainWindow()
         {
             InitializeComponent();
