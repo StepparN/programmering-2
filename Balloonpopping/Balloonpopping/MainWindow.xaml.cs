@@ -23,7 +23,7 @@ namespace Balloonpopping
     public partial class MainWindow : Window
     {
         DispatcherTimer gameTimer = new DispatcherTimer();
-
+        //Här sätts värdena för hastigheten och intervallerna för ballongerna
         int speed = 3;
         int intervals = 90;
         Random rand = new Random();
@@ -31,7 +31,7 @@ namespace Balloonpopping
         List<Rectangle> itemRemover = new List<Rectangle>();
 
         ImageBrush backgroundImage = new ImageBrush();
-
+        //Här sätts olika datatyper in som kommer att användas senare i koden
         int balloonSkins;
         int i;
 
@@ -43,15 +43,14 @@ namespace Balloonpopping
 
         MediaPlayer player = new MediaPlayer();
 
-        //Här sätts bakgrundsbilden in
         public MainWindow()
         {
             InitializeComponent();
 
             gameTimer.Tick += GameEngine;
             gameTimer.Interval = TimeSpan.FromMilliseconds(20);
-
-            backgroundImage.ImageSource = new BitmapImage(new Uri("pack://application:,,,/files/background-Image.jpg")); // i en bitmapimage lägger man in bakgrunden till spelet.
+            //I en bitmapimage lägger man in bakgrunden till spelet
+            backgroundImage.ImageSource = new BitmapImage(new Uri("pack://application:,,,/files/background-Image.jpg"));
             MyCanvas.Background = backgroundImage;
 
             RestartGame();
@@ -60,6 +59,7 @@ namespace Balloonpopping
 
         private void GameEngine(object sender, EventArgs e)
         {
+            //Det här skriver ut ens score
             scoreText.Content = "Score: " + score;
 
             intervals -= 10;
@@ -93,15 +93,16 @@ namespace Balloonpopping
                         balloonImage.ImageSource = new BitmapImage(new Uri("pack://application:,,,/files/balloon5.png"));
                         break;
                 }
-                //Denna kod avgör hur ballongerna ska se ut, alltså höjd och bredd
+                //Denna kod avgör hur ballongerna ska se ut
                 Rectangle newBalloon = new Rectangle
                 {
+                    //Här bestäms höjden och bredden på ballongerna
                     Tag = "balloon",
                     Height = 70,
                     Width = 50,
                     Fill = balloonImage
                 };
-
+                //Det här är vart ballongerna visas på skärmen
                 Canvas.SetLeft(newBalloon, rand.Next(50, 400));
                 Canvas.SetTop(newBalloon, 600);
 
@@ -109,7 +110,7 @@ namespace Balloonpopping
 
                 intervals = rand.Next(90, 150);
             }
-            //Det här gör att om ballongen kommer till toppen så läggs en missad ballong till
+     
             foreach (var x in MyCanvas.Children.OfType<Rectangle>())
             {
                 if ((string)x.Tag == "balloon")
@@ -119,7 +120,7 @@ namespace Balloonpopping
                     Canvas.SetTop(x, Canvas.GetTop(x) - speed);
                     Canvas.SetLeft(x, Canvas.GetLeft(x) - (i * -1));
                 }
-
+                //Om ballongerna kommer tillräckligt högt upp försvinner dem och man får en missad ballong
                 if (Canvas.GetTop(x) < 20)
                 {
                     itemRemover.Add(x);
@@ -136,14 +137,16 @@ namespace Balloonpopping
             //Det här kodblocket gör att om man missar mer än 10 ballonger så förlorar man och kan starta igen
             if (missedBalloons > 10)
             {
+                //Om spelet inte är aktivt stoppas det och game over kommer up
                 gameIsActive = false;
                 gameTimer.Stop();
+                //Om man klickar ok startas spelet om
                 MessageBox.Show("Game over" + Environment.NewLine + "Click ok to play again");
 
                 RestartGame();
             }
-
-            if (score > 10) //Denna if-sats gör att ballongerna efter 10 i score blir snabbare vilket gör spelet svårare.
+            //Denna if-sats gör att ballongerna efter 10 i score blir snabbare vilket gör spelet svårare
+            if (score > 10)
             {
                 speed = 7;
             }
@@ -158,10 +161,10 @@ namespace Balloonpopping
                 if (e.OriginalSource is Rectangle)
                 {
                     Rectangle activeRec = (Rectangle)e.OriginalSource;
-
+                    //Det här är ljudfilen som spelas när man förstör en ballong
                     player.Open(new Uri("../../files/pop-sound.mp3", UriKind.RelativeOrAbsolute));
                     player.Play();
-
+                    //Här får man ett poäng om man poppar en ballong
                     MyCanvas.Children.Remove(activeRec);
 
                     score += 1;
@@ -178,6 +181,7 @@ namespace Balloonpopping
             missedBalloons = 0;
             score = 0;
             intervals = 90;
+            //Om spelet är aktivt är ballongernas hastighet 3
             gameIsActive = true;
             speed = 3;
 
@@ -194,7 +198,7 @@ namespace Balloonpopping
             {
                 MyCanvas.Children.Remove(y);
             }
-
+            //Tar bort allt från skärmen och startar om spelet
             itemRemover.Clear();
 
             StartGame();
