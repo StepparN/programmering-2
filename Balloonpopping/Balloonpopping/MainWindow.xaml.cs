@@ -37,11 +37,11 @@ namespace Balloonpopping
         int balloonSkins;
         //Används för att kunna få ballongerna att röra sig fram och tillbaka
         int i;
-
+        //För att kunna hålla koll på antalet missade ballonger
         int missedBalloons;
-
+        //En sant eller falskt om spelet körs eller inte
         bool gameIsActive;
-
+        //Används för att hålla koll på poäng
         int score;
 
         MediaPlayer player = new MediaPlayer();
